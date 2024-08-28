@@ -153,11 +153,11 @@ a,
      -o-transition: all .3s ease-in-out;
      transition: all .3s ease-in-out;
 }
-
 img {
      max-width: 100%;
      height: auto;
 }
+
 
  :focus {
      outline: 0;
