@@ -1,77 +1,52 @@
 body {
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: 'Arial', sans-serif;
+    background-color: #f3f2ef; /* LinkedIn'in açık gri arka plan rengi */
     margin: 0;
     padding: 0;
-    background-color: #f0f4f8; /* Pastel arka plan rengi */
     color: #333;
-    line-height: 1.6;
 }
 
 header {
-    background-color: #2d2d44; /* Pastel mavi - mor tonu */
-    padding: 15px 0;
-    text-align: center;
+    background-color: #283e4a; /* LinkedIn'in koyu mavi rengi */
+    padding: 10px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+}
+
+header .logo {
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
 }
 
 header nav ul {
     list-style: none;
-    padding: 0;
     margin: 0;
+    padding: 0;
+    display: flex;
 }
 
 header nav ul li {
-    display: inline;
-    margin: 0 20px;
+    margin-left: 20px;
 }
 
 header nav ul li a {
-    color: #e0e0e0; /* Açık gri */
+    color: white;
     text-decoration: none;
-    font-size: 18px;
-    font-weight: bold;
+    font-size: 16px;
+    font-weight: 600;
 }
 
 header nav ul li a:hover {
-    color: #a3d2ca; /* Neon pastel yeşil */
+    text-decoration: underline;
 }
 
-section {
-    padding: 40px;
+.container {
+    max-width: 1200px;
     margin: 20px auto;
-    width: 80%;
-    background-color: #ffffff;
-    border-radius: 10px;
-    box-shadow: 0 0 15px rgba(0,0,0,0.1);
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-}
-
-section .content {
-    max-width: 60%;
-}
-
-h1, h2 {
-    color: #2d2d44;
-}
-
-p {
-    color: #555;
-}
-
-.neon-image {
-    max-width: 30%;
-    border-radius: 10px;
-    filter: drop-shadow(0 0 15px #00ffe7); /* Neon efekti */
-    opacity: 0.9;
-}
-
-footer {
-    text-align: center;
     padding: 20px;
-    background-color: #2d2d44;
-    color: #e0e0e0;
-    position: fixed;
-    bottom: 0;
-    width: 100%;
-}
+    background-color: white;
+    border-radius: 6px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0
